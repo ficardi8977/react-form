@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tabs } from 'antd';
 import type { TabsProps } from 'antd';
-import EvolucionClinica from '../../evolucion-clinica';
+import EvolucionClinica from '../../evolucion-clinica/page';
 type Props = {}
 
 const items: TabsProps['items'] = [

@@ -1,5 +1,6 @@
+'use client';
 import React from 'react';
-import { Tabs } from 'antd';
+import { Select, Tabs, Tag } from 'antd';
 import type { TabsProps } from 'antd';
 import Etiquetador from '../components/etiquetador';
 type Props = {}
@@ -13,6 +14,7 @@ const TabNav = (props: Props) => {
 
     <label>Factor de riesgo:</label>
     <Etiquetador />
+   
     </>
   )}
 

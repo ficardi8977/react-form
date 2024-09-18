@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { AppstoreOutlined, CalculatorOutlined, MailOutlined, SettingOutlined, FormOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
-import Calculadora from '@/app/calculadora-riesgos';
+import Calculadora from '@/app/calculadora-riesgos/page';
 import TabNav from '../tab-navegacion';
 
 type MenuItem = Required<MenuProps>['items'][number];
