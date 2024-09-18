@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import type { FormProps } from 'antd';
 import { Button, Divider, Form, Input, Switch } from 'antd';

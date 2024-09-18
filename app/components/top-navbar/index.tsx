@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import { CalculatorOutlined, FormOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
