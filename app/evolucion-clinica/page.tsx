@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import Etiquetador from '../components/etiquetador';
-type Props = {}
   
 const TabNav = () => {
   return (   

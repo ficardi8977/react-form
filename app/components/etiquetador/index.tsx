@@ -11,7 +11,7 @@ const options: SelectProps['options'] = [
 ];
 
 const Etiquetador: TagRender = (props) => {
-  const { label, value, closable, onClose } = props;
+  const { label, closable, onClose } = props;
   const onPreventMouseDown = (event: React.MouseEvent<HTMLSpanElement>) => {
     event.preventDefault();
     event.stopPropagation();

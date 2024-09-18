@@ -2,7 +2,6 @@ import React from 'react';
 import { Tabs } from 'antd';
 import type { TabsProps } from 'antd';
 import EvolucionClinica from '../../evolucion-clinica/page';
-type Props = {}
 
 const items: TabsProps['items'] = [
     {
@@ -36,7 +35,7 @@ const items: TabsProps['items'] = [
     console.log(key);
   };
   
-const TabNav = (props: Props) => {
+const TabNav = () => {
   return (   
     <>
     <Tabs defaultActiveKey="1" items={items} onChange={onChange} />;
