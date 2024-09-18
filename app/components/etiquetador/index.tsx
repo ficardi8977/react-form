@@ -1,7 +1,6 @@
 import React from 'react';
 import { Select, Tag } from 'antd';
 import type { SelectProps } from 'antd';
-import { Color } from 'antd/es/color-picker';
 
 type TagRender = SelectProps['tagRender'];
 

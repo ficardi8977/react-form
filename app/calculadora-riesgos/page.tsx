@@ -1,7 +1,6 @@
 import React from 'react';
 import type { FormProps } from 'antd';
-import { Button, Checkbox, Divider, Form, Input, Switch } from 'antd';
-import { SwitcherOutlined } from '@ant-design/icons';
+import { Button, Divider, Form, Input, Switch } from 'antd';
 
 type FieldType = {
   sexo?: string;
